@@ -1,0 +1,10 @@
+# project
+web/*
+.sass-cache
+Gemfile
+Gemfile.lock
+
+# general
+.DS_Store
+Thumbs.db
+ehthumbs.db
