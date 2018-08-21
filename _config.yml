@@ -40,7 +40,7 @@ navbar-links:
   Work: "work"
   Resources: 
     - Publications: "publications"
-    - Slides: "presentations"
+    - Slides: "slides"
     - Videos: "videos"
   Contact: "contact"
   #Blog: "blog"
