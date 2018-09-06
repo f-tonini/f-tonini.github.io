@@ -1,0 +1,80 @@
+---
+layout: page
+title: Spatiotemporal Interpolation of Missing Climatological Data
+subtitle: Comparison of probabilistic and deterministic spatiotemporal statistical techniques for reconstructing hourly time series of near-surface air temperature recorded by a dense network of forest understory sensors
+meta-title: "Francesco Tonini - Work"
+---
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+        <h3>Project Summary</h3>
+        <p>
+            Scientists and land managers are increasingly monitoring forest microclimate environments to better understand ecosystem processes, 
+            such as carbon sequestration and the population dynamics of species. Obtaining reliable time-series measurements of microclimate 
+            conditions is often hindered by missing and erroneous values. In this study, we compare spatio-temporal techniques, space–time kriging (probabilistic) 
+            and empirical orthogonal functions (deterministic), for reconstructing hourly time series of near-surface air temperature recorded by a dense network of 
+            200 forest understory sensors across a heterogeneous 349 km2 region in northern California. The reconstructed data were also aggregated to daily mean, minimum, 
+            and maximum in order to understand the sensitivity of model predictions to temporal scale of measurement. Empirical orthogonal functions performed best at both 
+            the hourly and daily time scale. We analyzed several scenarios to understand the effects that spatial coverage and patterns of missing data may have on model accuracy: 
+            (a) random reduction of the sample size/density by 25%, 50%, and 75% (spatial coverage); and (b) random removal of either 50% of the data, or three consecutive months 
+            of observations at randomly chosen stations (random and seasonal temporal missingness, respectively). Here, space–time kriging was less sensitive to scenarios of spatial coverage, 
+            but more sensitive to temporal missingness, with less marked differences between the two approaches when data were aggregated on a daily time scale. 
+            This research contextualizes trade-offs between techniques and provides practical guidelines, with free source code, for filling data gaps depending on the spatial density 
+            and coverage of measurements.
+        </p>        
+        </div>
+        <div class="col-lg-4 panel panel-default text-center">
+        <h3>Technology</h3>
+        <p>
+            <strong>Project Website</strong>:
+            <br>
+            <a href="https://doi.org/10.1016/j.agrformet.2015.11.004">https://doi.org/10.1016/j.agrformet.2015.11.004</a>
+        </p>
+        <p>
+            <strong>Deployment Architecture</strong>: 
+            <br>
+            R, ESRI ArcGIS
+        </p>
+        <p>
+            <strong>Language</strong>: 
+            <br>
+            R
+        </p>
+        <p>
+            <a href="https://github.com/f-tonini/Microclimate-Sonoma" class="btn btn-info">View Code on Github</a>  
+        </p>       
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+        <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+            <!-- Carousel indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>   
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+            <div class="item active">
+                <img src="/img/microclimate_carousel_1.png" alt="First Slide">
+            </div>
+            <div class="item">
+                <img src="/img/microclimate_carousel_2.png" alt="Second Slide">
+            </div>
+            <div class="item">
+                <img src="/img/microclimate_carousel_3.png" alt="Third Slide">
+            </div>
+            </div>
+            <!-- Carousel nav -->
+            <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+        </div>
+    </div>
+</div>
