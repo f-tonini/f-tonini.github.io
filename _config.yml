@@ -44,7 +44,7 @@ navbar-links:
     - Videos: "videos"
   Contact: "contact"
   #Blog: "blog"
-nav-search: "search"
+#nav-search: "search"
 
 # --- Footer options --- #
 
