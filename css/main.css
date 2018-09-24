@@ -96,6 +96,12 @@ hr.style-two {
   overflow:hidden;
 }
 
+.pubs {
+  text-decoration: none;
+  color: #337ab7;
+  border-bottom: 1px solid #9eb1c1;
+}
+
 .thumbnail {
   border: 0 none;
   padding: 0;
