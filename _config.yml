@@ -54,24 +54,22 @@ author:
   name: Francesco Tonini
   email: "ftonini84@gmail.com"
   github: f-tonini
-  twitter: f_tonini
   linkedin: "in/francescotonini"
-  stackoverflow: "users/3816918/francesco-tonini"
   
 # Select which links to show in the footer  
 footer-links-active:
   rss: false
   facebook: false
   email: true
-  twitter: true
+  twitter: false
   github: true
   linkedin: true
-  stackoverflow: true
+  stackoverflow: false
   calendly: false
   telephone: false
   
 share-links-active:
-  twitter: true
+  twitter: false
   facebook: false
   linkedin: true
 
